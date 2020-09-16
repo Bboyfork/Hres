@@ -1,0 +1,29 @@
+SU_USER_CORE
+	accessLevel		0：游客	1：管理员	2：项目经理	3：开发人员
+	state			0：注销	1：在职		2：离职
+
+SU_POWER_CONFIG
+
+
+SU_USER_INFO
+	sex		1：男	2：女
+	marryStatus		1：已婚	1：未婚
+	computerType	1：是	2：否
+
+
+
+SU_RESOURCE_INFO
+	isEntrance		1：入场	2：出场
+
+SU_ITEM
+    itemType        0：待处理，审核    1：项目进行中 2：项目完结  3：项目作废
+
+SU_ITEM_MEMBER
+    imType          1：入场    2：出场
+
+SU_MSG
+    [
+        msType
+        msTypeInfo  1：入职 2：离职 3：转正 4：合同到期 5：出场人员信息修改 6：入场人员信息修改 7：项目到期
+    ]
+SU_MSG_TYPE_MAPPING

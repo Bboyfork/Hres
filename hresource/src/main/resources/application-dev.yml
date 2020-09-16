@@ -1,0 +1,27 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    druid:
+      url: jdbc:oracle:thin:@192.168.1.100:1521:TIENON
+      username: tienon
+      password: Tienon1501B
+      validation-query: SELECT 1 FROM DUAL
+      min-idle: 5
+#    schema: dev/data-oracle.sql
+
+#    url: jdbc:oracle:thin:@192.168.1.100:1521:TIENON
+#    username: tienon
+#    password: Tienon1501B
+#    #连接池
+#    hikari:
+#      minimum-idle: 5
+#      maximum-pool-size: 15
+#      auto-commit: true
+#      idle-timeout: 300000
+#      pool-name: LocalTestPool
+#      max-lifetime: 1800000
+#      connection-timeout: 30000
+#      connection-test-query: SELECT 1 FROM DUAL
