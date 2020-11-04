@@ -5,7 +5,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: oracle.jdbc.driver.OracleDriver
     druid:
-      url: jdbc:oracle:thin:@192.168.1.100:1521:TIENON
+      url: jdbc:oracle:thin:@192.168.1.150:1521:HFMSDB
       username: tienon
       password: Tienon1501B
       validation-query: SELECT 1 FROM DUAL

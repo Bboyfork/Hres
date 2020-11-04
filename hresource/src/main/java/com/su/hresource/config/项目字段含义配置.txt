@@ -22,8 +22,8 @@ SU_ITEM_MEMBER
     imType          1：入场    2：出场
 
 SU_MSG
-    [
+    SU_MSG_TYPE_MAPPING [
         msType
         msTypeInfo  1：入职 2：离职 3：转正 4：合同到期 5：出场人员信息修改 6：入场人员信息修改 7：项目到期
     ]
-SU_MSG_TYPE_MAPPING
+
